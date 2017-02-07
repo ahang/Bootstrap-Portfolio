@@ -1,0 +1,18 @@
+/** {
+    border: 1px solid red;
+}
+*/
+.col-md-5 {
+    background-color: white;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+.panel-heading,
+.panel-body,
+.panel-default,
+.col-sm-3 {
+    width: 400px;
+}
+
+.
