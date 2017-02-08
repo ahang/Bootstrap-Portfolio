@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo-name" href="#">Andy Hang</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right nav-pills">
+                    <li role="presentation" ><a href="index.html">About</a></li>
+                    <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+                    <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+
+        <div class="col-md-6">
+            <div class="page-header about-me">
+                <h1>Contact</h1>
+            </div>
+            <div class="container container-contact">
+                <form class="well col-sm-12 col-md-12">
+                    <div class="row">
+                        <div class="">
+                            <label>Name</label>
+                            <input class="form-control" placeholder="John Smith" type="text">
+                            <label>Email Address</label>
+                            <input class="form-control" placeholder="example@gmail.com" type="text">
+                        </div>
+                    <div class="">
+                        <div class="form-group">
+                                <label>Message</label>
+                                <textarea class="col-sm-3 col-md-3 form-control" id="message" name="message" rows="5"></textarea>
+                        </div>
+                                <button class="btn btn-btm" type="submit">Send</button>
+                    </div>
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="page-header connect-me">
+                    <h2>Connect with Me!</h2>
+                </div>
+                <div class="panel-body">
+                    <a target="_blank" href="#"><img src="assets/images/github.png" alt="github"></a>
+                    <a target="_blank" href="#"><img src="assets/images/linkedin.png" alt="github"></a>
+                    <a target="_blank" href="#"><img src="assets/images/stackoverflow.png" alt="github"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© Andy Hang 2017</p>
+        </div>
+    </footer>
+</body>
+</html>
