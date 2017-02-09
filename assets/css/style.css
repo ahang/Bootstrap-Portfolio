@@ -17,6 +17,10 @@ body {
     color: #777777;
 }
 
+.page-header {
+    padding-left: 5px;
+}
+
 
 .profile {
     display: inline-block;
